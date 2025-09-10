@@ -4,11 +4,11 @@ let btn = document.querySelector('#btn')
 // sayı çevirip doğru ve yalnış bilme
 btn.addEventListener('click', () => {
 let randomNum = Math.floor(Math.random() * 10);
-console.log("randomNum")
+
 if(randomNum === parseInt(betNum.value)){
-  console.log("your guess is correct!")
+  alert("Your guess is correct!")
 } else {
-  console.log("you guessed wrong")
+  alert("you guessed wrong")
 }if(parseInt(betNum.value) > 10){
   alert("invalid number")
 }
