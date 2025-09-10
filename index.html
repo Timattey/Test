@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>saofkaslkfas</h1>
+    <main>
+        <div class="container">
+            <img src="ping-pong.jpg" alt="ping-pong" id="pingPong">
+            <h1 id="score">0 to 0</h1>
+            <p>Use the buttons below to keep the score!</p>
+
+            <label for="maxScore" id="maxScoreLabel">Playing to:</label>
+            <select name="maxScore" id="maxScore">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+
+        <div class="buttons">
+            <button id="player1">Player 1</button>
+            <button id="player2">Player 2</button>
+            <button id="reset">Reset</button>
+        </div>
+
+
+
+
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+<script src="app.js"></script>
 </body>
 </html>
