@@ -14,14 +14,23 @@ main {
     border: none;
     box-shadow: rgba(183, 15, 15, 0.25) 0px 54px 55px, rgba(128, 37, 189, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     flex-direction: column;
-    background-color: #b674e3;
+    background-color: #6528bb;
     border-radius: 10%;
-
-
 }
 img {
     width: 500px;
     height: 400px;
+    border-radius: 10%;
+}
+
+#testImg {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 19%;
+    
 }
 
 h1 {
@@ -30,7 +39,11 @@ h1 {
 }
 
 #numPick {
-    margin-left: 30%;
+    margin-left: 37%;
+    width: 20px;
+    height: 20px;
+    border-radius: 70%;
+    background-color: #d393ef;
 }
 #numContainer{
     display: flex;
@@ -50,9 +63,19 @@ h1 {
     margin-left: 3px;
     color: white;
 }
+
+
 #btn {
     width: 70px;
     height: 30px;
-    border: none;
-    background-color: #F72585;
+    background-color: rgb(183, 103, 226);
+    border: 3px solid #9600d7;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #e1d4df;
+}
+#btn:hover {
+    box-shadow: 0 0 10px 0 #d700d3 inset, 0 0 20px 2px #ba00d7;
+    border: 3px solid #a100d7;
 }

@@ -3,7 +3,7 @@ let btn = document.querySelector('#btn')
 
 // sayı çevirip doğru ve yalnış bilme
 btn.addEventListener('click', () => {
-let randomNum = Math.floor(Math.random() * 10);
+let randomNum = Math.floor(Math.random() * 11);
 
 if(randomNum === parseInt(betNum.value)){
   alert("Your guess is correct!")
